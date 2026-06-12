@@ -67,7 +67,7 @@ The code can be used in one-, two-, and three-dimensional systems.
 Clone the repository:
 ```
 git clone https://github.com/jafarcheraghalizadeh/SF-DDFT.git
-cd DDFT
+cd SF-DDFT
 ```
 
 Build and run using the Main_Blend code as an example:
