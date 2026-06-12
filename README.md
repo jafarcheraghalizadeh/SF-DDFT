@@ -76,7 +76,7 @@ cd /Main_Blend
 bash run.sh
 ```
 It runs 20 independent simulations using `nohup` in the background, starting from initial configurations.
-* Important note: this version needs initial configuration to run.
+* Important note: this version needs initial configuration to run, Otherwise set `Line 15` in `input_general` to `3`.
 
 # Important parameters in the code
 
