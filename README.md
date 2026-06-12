@@ -8,7 +8,8 @@ The code incorporates stochastic fluctuations into the DDFT equations to capture
 2. Homopolymer Blend in melt (`Main_blend`)
 
 # Directory Structure
-.
+```text
+SF-DDFT/
 ├── General_Routines
 │   ├── mod_iterate.f90
 │   ├── mod_mt.f90
@@ -56,7 +57,7 @@ The code incorporates stochastic fluctuations into the DDFT equations to capture
 │   ├── mod_solvent.f90
 │   └── mod_triblock.f90
 └── README.md
-
+```
 The code can be used in one-, two-, and three-dimensional systems.
 
 # Usage
