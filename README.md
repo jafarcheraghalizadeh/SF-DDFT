@@ -108,3 +108,6 @@ Jafar Cheraghalizadeh (jcheragh@uni-mainz.de)
 Friederike Schmid (friederike.schmid@uni-mainz.de)
 
 Johannes Gutenberg-Universität Mainz, Institute of Physics, Schmid group
+# Citation
+If you use ADSCF or a derivative in published work, please cite:
+[From Single-Chain Dynamics to Structure Formation: Dynamic Self-Consistent Field Theory and Molecular Dynamics of (Co)polymer melts across Entanglement Regimes]
