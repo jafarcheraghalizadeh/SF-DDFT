@@ -1,0 +1,7 @@
+100.0d0        ! kappa (Helfand compressibility parameter)
+
+28.0d0         ! chi (Flory Huggins interaction parameter)
+
+1.0d0         ! volume of monomer_type 1
+1.0d0         ! volume of monomer_type 2    
+

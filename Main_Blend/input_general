@@ -1,0 +1,21 @@
+6.6d0		sizex
+6.6d0		sizey
+6.6d0		sizez
+
+143.74d0		number of chains A
+0.0d0 		mu_scf A	
+1.0d0		length of chain A
+
+143.74d0		number of chains B
+0.0d0 		mu_scf B	
+1.0d0		length of chain B
+
+0.01d0		ds 	0.1, 0.01	
+
+600000		number of timesteps  
+0.00005	    timestep  0.001, 0.00005
+
+.false.		qread (read configuration from file?)
+4		qinit  ! 1=cosine, 2=random densities, 3=random fields, 4= read from file
+.true.		qepd (EPD simulation? otherwise SCF calculation)		
+5.0             wcutoff
