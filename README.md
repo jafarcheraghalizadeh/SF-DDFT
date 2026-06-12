@@ -7,13 +7,63 @@ The code incorporates stochastic fluctuations into the DDFT equations to capture
 1. Block copolymers in melt (`Main_Diblock`)   
 2. Homopolymer Blend in melt (`Main_blend`)
 
+# Directory Structure
+.
+├── General_Routines
+│   ├── mod_iterate.f90
+│   ├── mod_mt.f90
+│   ├── mod_propagate.f90
+│   └── sub_wrap.f90
+├── Geometry_Modules
+│   └── Bulk
+│       ├── fftw3.f
+│       └── mod_fourier.f90
+├── Interaction_Modules
+│   ├── mod_FloryHuggins.f90
+│   ├── mod_FloryHuggins_Solution.f90
+│   └── mod_onecomponent_virialexpansion.f90
+├── Main_Blend
+│   ├── direction.py
+│   ├── extract_last_sample.f90
+│   ├── extract.sh
+│   ├── input_general
+│   ├── input_interactions
+│   ├── input_mobilities_d
+│   ├── main_blend.f90
+│   ├── Makefile
+│   ├── Mobilityentangledprint
+│   ├── mod_global.f90
+│   ├── run.sh
+│   └── S_q.py
+├── Main_Diblock
+│   ├── direction.py
+│   ├── extract_last_sample.f90
+│   ├── input_general
+│   ├── input_interactions
+│   ├── input_mobilities_d
+│   ├── input_mobilities-KG400
+│   ├── main_multiblock.f90
+│   ├── Makefile
+│   ├── Mobility-delta-print.txt
+│   ├── mod_global.f90
+│   ├── plots.ipynb
+│   ├── run.sh
+│   └── S_q.py
+├── Polymer_Modules
+│   ├── mod_diblock.f90
+│   ├── mod_homopolymer.f90
+│   ├── mod_multiblock.f90
+│   ├── mod_solvent.f90
+│   └── mod_triblock.f90
+└── README.md
+
 The code can be used in one-, two-, and three-dimensional systems.
 
 # Usage
 
 Clone the repository:
 ```
-git clone https://github.com/jafarcheraghalizadeh/DDFT.git
+git clone https://github.com/jafarcheraghalizadeh/SF-DDFT.git
 cd DDFT
 ```
 
@@ -31,6 +81,7 @@ It runs 20 independent simulations using `nohup` in the background for the inter
 1. `KT`  in mod_global shows the noise strength.
 
 2. Line 15 in `input_general`: set to 4 to read the initial configuration from a file; set to 3 to generate a random field (uploaded version is set to 3).
+
 
 
 # Information for Other files
