@@ -108,7 +108,9 @@ Jafar Cheraghalizadeh (jcheragh@uni-mainz.de)
 Friederike Schmid (friederike.schmid@uni-mainz.de)
 
 Johannes Gutenberg-Universität Mainz, Institute of Physics, Schmid group
+
+SF-DDFT is free software.
 # Citation
 If you use this code, please cite:
 
-**[1]** Alireza F. Behbahani, Jafar Cheraghalizadeh, and Friederike Schmid1;*From Single-Chain Dynamics to Structure Formation: Dynamic Self-Consistent Field Theory and Molecular Dynamics of (Co)polymer melts across Entanglement Regimes*,Arxiv, 2026.
+**[1]** Alireza F. Behbahani, Jafar Cheraghalizadeh, and Friederike Schmid1; *From Single-Chain Dynamics to Structure Formation: Dynamic Self-Consistent Field Theory and Molecular Dynamics of (Co)polymer melts across Entanglement Regimes*,Arxiv, 2026.
