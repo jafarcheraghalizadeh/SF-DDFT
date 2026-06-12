@@ -111,12 +111,4 @@ Johannes Gutenberg-Universität Mainz, Institute of Physics, Schmid group
 # Citation
 If you use this code, please cite:
 
-```bibtex
-@article{key,
-  author  = {Alireza F. Behbahani, Jafar Cheraghalizadeh, and Friederike Schmid1},
-  title   = {From Single-Chain Dynamics to Structure Formation: Dynamic Self-Consistent Field Theory and Molecular Dynamics of (Co)polymer melts across Entanglement Regimes},
-  journal = {Arxive},
-  year    = {2026},
-  doi     = {https://doi.org/XXXX}
-}
-```
+**[1]** Alireza F. Behbahani, Jafar Cheraghalizadeh, and Friederike Schmid1;*From Single-Chain Dynamics to Structure Formation: Dynamic Self-Consistent Field Theory and Molecular Dynamics of (Co)polymer melts across Entanglement Regimes*,Arxiv, 2026.
